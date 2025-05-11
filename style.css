@@ -1,0 +1,18 @@
+#ordenada {
+    color:palevioletred;
+    background: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nao-ordenada {
+    color:lightcyan;
+    background:cornflowerblue;
+    font-size: 20px;
+    list-style: square;
+}
+
+#nao-ordenada li::marker {
+    color: blue;
+    font-size: 40px;
+    
+}
